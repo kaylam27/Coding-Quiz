@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button id="high-scores">View High Scores</button>
+        <div id="modal-container" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                  <h3>
+                    High Scores
+                  </h3>
+                  <div id="scores"></div>
+                </div>
+            </div>
+        </div>
+        <p id="time"></p>
+    </header>
+    <div class="container">
+        <form id="main">
+            <h1>
+                Coding Quiz Challenge!
+            </h1>
+            <p id="info">
+                Try to answer the following code-related questions within the time limit. <br>
+                Keep in mind that every wrong answer knocks ten seconds off the clock and reduces your final score.
+            </p>
+            <button id="start">Click here to start.</button>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
